@@ -9,13 +9,13 @@ Downloading files with continuing downloading interrupted files
 
 ```dart
   // ability to continue downloading interrupted files
-  CustomDio customDio = CustomDio();
+  DioPlus dioPlus = DioPlus();
 
 ```
 
 ## Usage
 ```dart
-  await customDio.download(
+  await dioPlus.download(
     'url',
     'savePath',
     cancelToken: cancelToken,

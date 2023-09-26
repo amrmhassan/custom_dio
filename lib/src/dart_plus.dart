@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'cancel_token.dart';
 
-class CustomDio {
+class DioPlus {
   Future<int> download(
     String url,
     String savePath, {

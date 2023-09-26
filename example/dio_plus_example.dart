@@ -1,12 +1,12 @@
-import 'package:dio_plus/custom_dio.dart';
+import 'package:dio_plus/dart_plus.dart';
 
 void main() async {
   // ability to continue downloading interrupted files
-  CustomDio customDio = CustomDio();
+  DioPlus dioPlus = DioPlus();
 
   CustomCancelToken cancelToken = CustomCancelToken();
 
-  await customDio.download(
+  await dioPlus.download(
     'url',
     'savePath',
     cancelToken: cancelToken,
