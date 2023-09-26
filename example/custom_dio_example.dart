@@ -1,5 +1,4 @@
-import 'package:custom_dio/custom_dio.dart';
-import 'package:custom_dio/src/cancel_token.dart';
+import 'package:dio_plus/custom_dio.dart';
 
 void main() async {
   // ability to continue downloading interrupted files

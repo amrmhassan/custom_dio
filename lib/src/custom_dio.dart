@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:custom_dio/src/cancel_token.dart';
+
+import 'cancel_token.dart';
 
 class CustomDio {
   Future<int> download(

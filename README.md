@@ -25,6 +25,7 @@ Downloading files with continuing downloading interrupted files
   );
 
   // to cancel
-  cancelToken.cancel();```
+  cancelToken.cancel();
+  ```
 
 ## Just like that

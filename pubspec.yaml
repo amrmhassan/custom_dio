@@ -1,4 +1,4 @@
-name: custom_dio
+name: dio_plus
 description: Extended version of original dio package.
 version: 1.0.0
 repository: https://github.com/amrmhassan/custom_dio
