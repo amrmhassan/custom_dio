@@ -1,7 +1,21 @@
 import 'package:custom_dio/custom_dio.dart';
+import 'package:custom_dio/src/cancel_token.dart';
 
-void main() {
+void main() async {
   // ability to continue downloading interrupted files
   CustomDio customDio = CustomDio();
-  customDio.download('url', 'savePath');
+
+  CustomCancelToken cancelToken = CustomCancelToken();
+
+  await customDio.download(
+    'url',
+    'savePath',
+    cancelToken: cancelToken,
+    deleteIfExist: false,
+    headers: {},
+    onReceiveProgress: (total, received, chunkSize) {},
+  );
+
+  // to cancel
+  cancelToken.cancel();
 }
