@@ -1,7 +1,7 @@
 name: custom_dio
-description: A starting point for Dart libraries or applications.
+description: Extended version of original dio package.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/amrmhassan/custom_dio
 
 environment:
   sdk: ^3.1.2
